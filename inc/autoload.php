@@ -1,18 +1,8 @@
 <?php
 require_once('config.php');
 function __autoload($class_name){
+	$class = explode('_',$class_name);
+	$path  = implode('/',$class).'.php';
+	require_once($path);
 
-	$className = explode('_',$class_name);
-	$classPath = implode('/',$className);
-	require_once($classPath);
-	
 }
-
-function pre($name){
-
-	echo '<pre>';
-	var_dump($name);
-	echo '</pre>';
-}
-//pre(__autoload('app_coantroller'));
-?>
