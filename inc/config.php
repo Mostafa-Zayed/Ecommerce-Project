@@ -18,6 +18,9 @@ defined('ROOT_PATH') || define('ROOT_PATH',realpath(dirname(__FILE__).DS.'..'.DS
 // Classes Dir
 defined('CLASSES_DIR') || define('CLASSES_DIR','classes');
 
+// Pages Dir
+defined('PAGES_DIR')   || define('PAGES_DIR','pages');
+
 // Modules Dir
 defined('MOD_DIR') || define('MOD_DIR','mod');
 
@@ -32,4 +35,14 @@ defined('EMAILS_PATH') || define('EMAILS_PATH',ROOT_PATH.DS.'emails');
 
 // Catalogue Path
 defined('CATALOGUE_PATH') || define('CATALOGUE_PATH',ROOT_PATH.DS.'media'.DS.'catalogue');
-echo CATALOGUE_PATH;
+
+// Include All Paths In Application 
+set_include_path(implode(PATH_SEPARATOR,array(
+
+	realpath(ROOT_PATH.DS.CLASSES_DIR),
+	realpath(ROOT_PATH.DS.PAGES_DIR),
+	realpath(ROOT_PATH.DS.MOD_DIR),
+	realpath(ROOT_PATH.DS.INC_DIR),
+	realpath(ROOT_PATH.DS.TEMPLATE_DIR),
+	get_include_path()
+)));
