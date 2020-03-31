@@ -1,10 +1,10 @@
 <?php
-
+require_once('config.php');
 function __autoload($class_name){
 
 	$className = explode('_',$class_name);
 	$classPath = implode('/',$className);
-	return $classPath;
+	require_once($classPath);
 	
 }
 
