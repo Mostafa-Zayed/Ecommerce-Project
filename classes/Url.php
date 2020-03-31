@@ -22,4 +22,14 @@ class Url{
 		$errorPage = self::$folderName.DS.'error.php';
 		return is_file($page) ? $page : $errorPage;
 	}
+
+	public static function getAllParam(){
+		if(!empty($_GET)){
+			foreach($_GET as $key => $value ){
+				if(!empty($value)){
+					self::$paramsName[$key] = $vlaue;
+				}
+			}
+		}
+	}
 }
