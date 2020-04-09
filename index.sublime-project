@@ -3,6 +3,9 @@
 	[
 		{
 			"path": "."
+		},
+		{
+			"path": "E:\\laravel\\Studey"
 		}
 	]
 }

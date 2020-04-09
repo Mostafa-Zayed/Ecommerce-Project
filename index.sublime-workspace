@@ -7,6 +7,46 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/C/xampp/htdocs/projects/mvc2/index.php",
+			"settings":
+			{
+				"buffer_size": 310,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/projects/mvc2/vendor/System/Application.php",
+			"settings":
+			{
+				"buffer_size": 1353,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<?php\n\nnamespace App\\Controllers\\Users;\n\nclass Users {\n\n\tpublic function __construct(){\n\n\t\techo 'Users Class';\n\t}\n}",
+			"file": "/C/xampp/htdocs/projects/mvc2/App/Controllers/Users.php",
+			"file_size": 125,
+			"file_write_time": 132309022326697956,
+			"settings":
+			{
+				"buffer_size": 115,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/projects/mvc2/vendor/System/File.php",
+			"settings":
+			{
+				"buffer_size": 1089,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "<?php"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -43,12 +83,138 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/E/laravel/Studey",
+		"/E/laravel/Studey/app",
+		"/E/laravel/Studey/app/Http",
+		"/E/laravel/Studey/app/Http/Requests",
+		"/E/laravel/Studey/app/Http/Requests/Dashboard",
+		"/E/laravel/Studey/app/Http/Requests/Dashboard/Courses",
+		"/E/laravel/Studey/app/Http/Requests/Dashboard/Videos",
+		"/E/laravel/Studey/app/Models",
+		"/E/laravel/Studey/database",
+		"/E/laravel/Studey/database/migrations",
+		"/E/laravel/Studey/resources",
+		"/E/laravel/Studey/resources/views",
+		"/E/laravel/Studey/resources/views/dashboard",
+		"/E/laravel/Studey/resources/views/dashboard/courses",
+		"/E/laravel/Studey/resources/views/dashboard/curriculumes",
+		"/E/laravel/Studey/resources/views/dashboard/faqs",
+		"/E/laravel/Studey/resources/views/dashboard/videos"
+	],
 	"file_history":
 	[
+		"/C/xampp/htdocs/projects/mvc2/vendor/System/Test.php",
+		"/C/xampp/htdocs/projects/oop/Employee.php",
+		"/C/xampp/htdocs/projects/oop/Test.php",
+		"/C/xampp/htdocs/projects/oop/Student.php",
+		"/E/laravel/Studey/vendor/phpunit/phpunit/tests/end-to-end/phpt-env.phpt",
+		"/C/xampp/htdocs/projects/hassan_zohdy/vendor/System/Test.php",
+		"/C/xampp/htdocs/projects/hassan_zohdy/vendor/System/File.php",
+		"/C/xampp/htdocs/projects/hassan_zohdy/vendor/System/Application.php",
+		"/C/xampp/htdocs/projects/hassan_zohdy/App/Controllers/Users/Users.php",
+		"/C/xampp/htdocs/projects/hassan_zohdy/index.php",
+		"/C/xampp/htdocs/projects/hassan_zohdy/App/first.php",
+		"/C/xampp/htdocs/projects/oop_admin/index.php",
+		"/C/xampp/htdocs/projects/oop_admin/classes/Application.php",
+		"/C/xampp/htdocs/projects/mvc/system/request.php",
+		"/C/xampp/htdocs/projects/mvc/system/clear.php",
+		"/C/xampp/htdocs/projects/cms2/config/scripts.php",
+		"/C/xampp/htdocs/projects/cms2/test.php",
+		"/C/xampp/htdocs/projects/cms2/config/database.php",
+		"/C/xampp/htdocs/projects/mvc/config.php",
+		"/C/xampp/htdocs/projects/mvc/index.php",
+		"/C/xampp/htdocs/projects/mvc/system/document.php",
+		"/C/xampp/htdocs/projects/mvc/system/DB.php",
+		"/C/xampp/htdocs/projects/mvc/system/startup.php",
+		"/C/xampp/htdocs/projects/mvc/system/registry.php",
+		"/C/xampp/htdocs/projects/mvc/controller/error/not_found.php",
+		"/C/xampp/htdocs/projects/mvc/system/Route.php",
+		"/C/xampp/htdocs/projects/mvc/system/controller.php",
+		"/C/xampp/htdocs/projects/mvc/controller/page/home.php",
+		"/C/xampp/htdocs/projects/mvc/system/session.php",
+		"/C/xampp/htdocs/projects/mvc/controller/error/ErrorNotFoundController.php",
+		"/C/xampp/htdocs/projects/mvc/system/Route.ph",
+		"/C/xampp/htdocs/projects/oop/Form.php",
+		"/C/xampp/htdocs/projects/oop/index.php",
+		"/C/xampp/htdocs/projects/oop/Fruit.php",
+		"/E/laravel/Studey/app/Http/Controllers/Dashboard/Courses.php",
+		"/E/laravel/Studey/app/Http/Requests/Dashboard/Courses/Store.php",
+		"/E/laravel/Studey/resources/views/dashboard/courses/form.blade.php",
+		"/E/laravel/Studey/resources/views/dashboard/courses/index.blade.php",
+		"/E/laravel/Studey/database/migrations/2020_03_27_100640_create_courses_table.php",
+		"/E/laravel/Studey/resources/views/dashboard/courses/create.blade.php",
+		"/E/laravel/Studey/app/Models/Course.php",
+		"/E/laravel/Studey/resources/views/dashboard/faqs/index.blade.php",
+		"/E/laravel/Studey/resources/views/dashboard/programes/form.blade.php",
+		"/E/laravel/Studey/app/Models/Category.php",
+		"/E/laravel/Studey/resources/views/dashboard/curriculumes/form.blade.php",
+		"/E/laravel/Studey/resources/views/dashboard/programes/create.blade.php",
+		"/E/laravel/Studey/resources/views/dashboard/programes/index.blade.php",
+		"/E/laravel/Studey/app/Http/Controllers/Dashboard/Programes.php",
+		"/E/laravel/Studey/app/Models/Programe.php",
+		"/E/laravel/Studey/app/Models/Instructor.php",
+		"/E/laravel/Studey/database/migrations/2020_04_03_050004_create_programes_instructors_table.php",
+		"/E/laravel/Studey/database/migrations/2020_03_27_100517_create_programes_table.php",
+		"/E/laravel/Studey/resources/views/dashboard/certifications/form.blade.php",
+		"/E/laravel/Studey/resources/views/dashboard/faqs/form.blade.php",
+		"/E/laravel/Studey/app/Http/Controllers/Dashboard/Curriculumes.php",
+		"/E/laravel/Studey/resources/views/dashboard/curriculumes/create.blade.php",
+		"/E/laravel/Studey/resources/views/dashboard/faqs/create.blade.php",
+		"/E/laravel/Studey/resources/views/dashboard/curriculumes/index.blade.php",
+		"/E/laravel/Studey/app/Models/Curriculume.php",
+		"/E/laravel/Studey/resources/views/dashboard/instructors/index.blade.php",
+		"/E/laravel/Studey/resources/views/dashboard/events/index.blade.php",
+		"/E/laravel/Studey/app/Models/Event.php",
+		"/E/laravel/Studey/database/migrations/2020_03_27_110510_create_events_table.php",
+		"/E/laravel/Studey/database/migrations/2020_04_01_031411_create_profiles_table.php",
+		"/E/laravel/Studey/app/Models/User.php",
+		"/E/laravel/Studey/resources/views/auth/register.blade.php",
+		"/E/laravel/Studey/app/Http/Controllers/Auth/RegisterController.php",
+		"/E/laravel/Studey/resources/views/dashboard/instructors/create.blade.php",
+		"/E/laravel/Studey/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/E/laravel/Studey/resources/views/dashboard/certifications/index.blade.php",
+		"/E/laravel/Studey/resources/views/dashboard/certifications/create.blade.php",
+		"/E/laravel/Studey/app/Http/Controllers/Dashboard/Certifications.php",
+		"/E/laravel/Studey/app/Models/Certification.php",
+		"/E/laravel/Studey/database/migrations/2020_04_02_125959_create_links_table.php",
+		"/E/laravel/Studey/database/migrations/2020_04_02_123709_create_settings_table.php",
+		"/E/laravel/Studey/config/app.php",
+		"/E/laravel/Studey/routes/dashboard/web.php",
+		"/E/laravel/Studey/resources/views/dashboard/layout/side-bar.blade.php",
+		"/E/laravel/Studey/resources/views/dashboard/scholarships/index.blade.php",
+		"/E/laravel/Studey/app/Http/Controllers/Dashboard/Scholarships.php",
+		"/E/laravel/Studey/routes/web.php",
+		"/E/laravel/Studey/app/Http/Controllers/Dashboard/Instructors.php",
+		"/E/laravel/Studey/resources/views/dashboard/curriculumes/edit.blade.php",
+		"/E/laravel/Studey/app/Models/Profile.php",
+		"/E/laravel/Studey/database/migrations/2020_04_01_033709_create_users_courses_table.php",
+		"/E/laravel/Studey/database/migrations/2020_04_02_093935_create_events_instructors_table.php",
+		"/E/laravel/Studey/app/Models/Faq.php",
+		"/E/laravel/wiser_2/wiser/event_details.html",
+		"/E/laravel/wiser_2/wiser/Event.html",
+		"/E/laravel/clever/clever/single-course.html",
+		"/E/laravel/clever/clever/instructors.html",
+		"/C/xampp/htdocs/projects/Ecommerce-Project/classes/Core.php",
+		"/C/xampp/htdocs/projects/Ecommerce-Project/classes/Url.php",
+		"/C/xampp/htdocs/projects/Ecommerce-Project/classes/Database.php",
+		"/C/xampp/htdocs/projects/Ecommerce-Project/index.php",
+		"/C/xampp/htdocs/projects/Ecommerce-Project/pages/error.php",
+		"/E/laravel/clever/clever/courses.html",
+		"/C/xampp/htdocs/projects/Ecommerce-Project/inc/autoload.php",
+		"/C/xampp/htdocs/projects/Ecommerce-Project/inc/config.php",
+		"/C/xampp/htdocs/projects/Ecommerce-Project/template/_header.php",
+		"/C/xampp/htdocs/projects/Ecommerce-Project/pages/index.php",
+		"/C/xampp/htdocs/projects/ecommerce/inc/config.php",
+		"/C/xampp/htdocs/projects/ecommerce/index.php",
+		"/C/xampp/htdocs/projects/Ecommerce-Project/index.sublime-project",
+		"/C/xampp/htdocs/projects/ecommerce/inc/autoload.php",
+		"/C/xampp/htdocs/projects/ecommerce/classes/Core.php",
+		"/C/xampp/htdocs/projects/Ecommerce-Project/classes/Helper.php",
 		"/E/laravel/wiser_2/wiser/index.html",
 		"/E/laravel/Studey/public/assets/css/material-dashboard.css",
 		"/D/Studey/laravel/new_test/app/Http/Controllers/BackEnd/Users.php",
-		"/E/laravel/clever/clever/courses.html",
 		"/E/laravel/Studey/config/auth.php",
 		"/E/laravel/wiser_2/wiser/contact_process.php",
 		"/E/laravel/clever/contact.html",
@@ -66,113 +232,7 @@
 		"/E/laravel/clever/single-course.html",
 		"/E/laravel/clever/regular-page.html",
 		"/E/laravel/Template/css/animate.css",
-		"/D/Studey/laravel/new_test/resources/views/back-end/layout/app.blade.php",
-		"/D/Studey/laravel/new_test/resources/views/back-end/home.blade.php",
-		"/D/Studey/laravel/new_test/resources/views/layouts/app.blade.php",
-		"/E/new/material-dashboard-dark-edition-v2.1.0/material-dashboard-dark-edition-v2.1.0/examples/tables.html",
-		"/E/new/material-dashboard-dark-edition-v2.1.0/material-dashboard-dark-edition-v2.1.0/template.html",
-		"/E/new/material-dashboard-dark-edition-v2.1.0/material-dashboard-dark-edition-v2.1.0/assets/css/material-dashboard.css",
-		"/D/Studey/laravel/JobFinder/JobFinder/.env",
-		"/C/Users/bahgat/Desktop/AdminBSBMaterialDesign-master/AdminBSBMaterialDesign-master/index.html",
-		"/C/Users/bahgat/Desktop/AdminBSBMaterialDesign-master/AdminBSBMaterialDesign-master/pages/tables/normal-tables.html",
-		"/D/Studey/laravel/JobFinder/.env",
-		"/E/laravel/WiserUniversity/public/css/bootstrap.min.css",
-		"/E/laravel/WiserUniversity/public/js/bootstrap.min.js",
-		"/D/Studey/MY CV/Project Number1/Project1-24-7-2019/Project-One-24-7-2019/index.html",
-		"/D/Studey/templets/clever/clever/css/bootstrap.min.css",
-		"/E/blog/public/js/popper.min.js.map",
-		"/E/blog/public/js/dataTables1.10.19.bootstrap4.min.js",
-		"/E/blog/public/js/jquery.dataTables1.10.16.min.js",
-		"/E/blog/public/js/jquery.validate1.19.js",
-		"/E/test/clever/css/animate.css",
-		"/E/test/Template/css/animate.css",
-		"/E/test/clever/css/bootstrap.min.css",
-		"/E/test/Template/css/bootstrap.min.css",
-		"/E/blog/public/js/jquery.js",
-		"/E/blog/public/css/jquery.dataTables1.10.16.min.css",
-		"/E/blog/public/css/dataTables1.10.19.bootstrap4.min.css",
-		"/E/Direngine/public/js/datatables.bootstrap4.min.js",
-		"/E/test/blog/config/app.php",
-		"/E/Direngine/public/js/jquery.datatables.min.js",
-		"/E/Direngine/public/js/jquery.js",
-		"/D/Studey/laravel/learning/public/js/jquery-3.3.1.js",
-		"/D/Studey/laravel/learning/public/css/dataTables.bootstrap4.min.css",
-		"/D/Studey/laravel/learning/public/css/bootstrap.css",
-		"/D/Studey/laravel/learning/public/js/dataTables.bootstrap4.min.js",
-		"/D/Studey/laravel/learning/public/js/jquery.dataTables.min.js",
-		"/C/Users/bahgat/Downloads/Compressed/direngine/direngine/index.html",
-		"/D/Studey/laravel/learning/public/js/New Text Document.js",
-		"/E/Direngine/resources/views/layouts/app.blade.php",
-		"/E/Direngine/resources/views/layouts/dashboard/app.blade.php",
-		"/C/Users/bahgat/Desktop/admin/AdminBSBMaterialDesign-master/AdminBSBMaterialDesign-master/pages/tables/jquery-datatable.html",
-		"/E/Direngine/resources/views/dashboard/users/index.blade.php",
-		"/C/Users/bahgat/Downloads/Compressed/direngine/direngine/css/style.css",
-		"/C/Users/bahgat/Desktop/admin/AdminBSBMaterialDesign-master/AdminBSBMaterialDesign-master/css/style.min.css",
-		"/C/Users/bahgat/Desktop/admin/AdminBSBMaterialDesign-master/AdminBSBMaterialDesign-master/index.html",
-		"/E/Direngine/routes/web.php",
-		"/E/Direngine/app/Http/Controllers/Dashboard/UserController.php",
-		"/E/Direngine/routes/dashboard/web.php",
-		"/E/Direngine/resources/views/layouts/dashboard/asides/_aside_left.blade.php",
-		"/E/Direngine/resources/lang/ar/site.php",
-		"/C/Users/bahgat/Desktop/admin/AdminBSBMaterialDesign-master/AdminBSBMaterialDesign-master/pages/forms/form-validation.html",
-		"/E/Direngine/resources/views/dashboard/users/create.blade.php",
-		"/E/Direngine/database/migrations/2020_03_07_200435_create_locations_table.php",
-		"/E/Direngine/.env",
-		"/E/Direngine/app/Http/Controllers/Auth/RegisterController.php",
-		"/E/Direngine/app/Http/Controllers/Auth/LoginController.php",
-		"/E/Direngine/resources/views/home.blade.php",
-		"/E/Direngine/resources/views/dashboard/users/edit.blade.php",
-		"/E/Direngine/app/City.php",
-		"/E/Direngine/app/Location.php",
-		"/E/Direngine/database/migrations/2020_03_07_221852_create_destinations_table.php",
-		"/E/Direngine/database/migrations/2020_03_07_222944_create_apartment_room_table.php",
-		"/E/Direngine/database/migrations/2020_03_07_202942_create_apartments_table.php",
-		"/E/Direngine/database/migrations/2020_03_07_200752_create_categories_table.php",
-		"/E/Direngine/database/migrations/2020_03_07_201023_create_questions_table.php",
-		"/E/Direngine/database/migrations/2020_03_07_200648_create_hotels_table.php",
-		"/E/Direngine/database/migrations/2020_03_07_200720_create_toures_table.php",
-		"/E/Direngine/database/migrations/2020_03_07_220204_create_services_table.php",
-		"/E/Direngine/database/migrations/2020_03_07_201222_create_abouts_table.php",
-		"/E/Direngine/database/migrations/2020_03_07_202052_create_rometypes_table.php",
-		"/E/Direngine/database/migrations/2020_03_07_222659_create_hotel_room_table.php",
-		"/E/Direngine/database/migrations/2020_03_07_200557_create_rooms_table.php",
-		"/E/Direngine/database/migrations/2020_03_07_200458_create_cities_table.php",
-		"/E/Direngine/public/dashboard/pages/tables/jquery-datatable.html",
-		"/E/Direngine/public/dashboard/pages/typography.html",
-		"/C/Users/bahgat/Downloads/Video/bootstrap4/project/index.html",
-		"/C/Users/bahgat/Downloads/Video/bootstrap4/index.html",
-		"/C/Users/bahgat/Downloads/Video/bootstrap4/popper.min.js",
-		"/C/Users/bahgat/Downloads/Video/bootstrap4/iquery.js",
-		"/C/Users/bahgat/Downloads/Compressed/direngine/direngine/blog.html",
-		"/C/Users/bahgat/Downloads/Compressed/direngine/direngine/blog-single.html",
-		"/C/Users/bahgat/Downloads/Compressed/direngine/direngine/contact.html",
-		"/C/Users/bahgat/Downloads/Compressed/direngine/direngine/hotel.html",
-		"/C/Users/bahgat/Downloads/Compressed/direngine/direngine/about.html",
-		"/E/Direngine/public/css/app.css",
-		"/E/Direngine/public/css/style.css",
-		"/C/Users/bahgat/Downloads/Compressed/direngine/direngine/tour.html",
-		"/D/Studey/templets/skillhunt/skillhunt/css/bootstrap.min.css",
-		"/C/Users/bahgat/Downloads/Compressed/direngine/direngine/css/bootstrap.min.css",
-		"/C/Users/bahgat/Downloads/Compressed/theriver/theriver/styles/bootstrap-4.1.2/bootstrap.min.css",
-		"/C/Users/bahgat/Downloads/Compressed/abdeleid-mypos-a763e4dbb835/abdeleid-mypos-a763e4dbb835/resources/views/layouts/dashboard/app.blade.php",
-		"/C/Users/bahgat/Downloads/Compressed/abdeleid-mypos-a763e4dbb835/abdeleid-mypos-a763e4dbb835/resources/views/layouts/dashboard/_aside.blade.php",
-		"/D/Studey/laravel/JobFinder/config/database.php",
-		"/C/xampp/htdocs/projects/widget_corp/index.php",
-		"/C/xampp/htdocs/projects/Widget-Project/public/css/style.css",
-		"/C/xampp/htdocs/projects/widget_corp/public/css/public.css",
-		"/C/Users/bahgat/Desktop/admin/sb-admin2-rtl-master/sb-admin2-rtl-master/css/bootstrap.min.css",
-		"/C/Windows/System32/drivers/etc/hosts",
-		"/C/xampp/apache/conf/extra/httpd-vhosts.conf",
-		"/C/xampp/htdocs/projects/git/PHP Ajax Crud Operarions/css/bootstrap.min.css",
-		"/C/xampp/htdocs/projects/git/PHP Ajax Crud Operarions/Crud.php",
-		"/C/xampp/htdocs/projects/git/Learning-/ajax/object.json",
-		"/C/xampp/htdocs/projects/git/Learning-/ajax/demo.html",
-		"/C/xampp/htdocs/projects/git/Learning-/ajax/index.html",
-		"/C/xampp/htdocs/projects/git/Learning-/ajax/jquery.js",
-		"/E/My-GitHub/Like_System_And_Notifications/login.php",
-		"/C/xampp/htdocs/projects/like_system/login.php",
-		"/C/xampp/htdocs/projects/like_system/index.php",
-		"/C/xampp/htdocs/projects/like_system/load_stuff.php"
+		"/D/Studey/laravel/new_test/resources/views/back-end/layout/app.blade.php"
 	],
 	"find":
 	{
@@ -190,6 +250,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\t\n",
 			"Stay Updated"
 		],
 		"highlight": true,
@@ -208,8 +269,122 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/C/xampp/htdocs/projects/mvc2/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 310,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								273,
+								273
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/xampp/htdocs/projects/mvc2/vendor/System/Application.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1353,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								835,
+								835
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1049.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/xampp/htdocs/projects/mvc2/App/Controllers/Users.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 115,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								110,
+								110
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/xampp/htdocs/projects/mvc2/vendor/System/File.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1089,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								878,
+								878
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<?php",
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1104.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -290,7 +465,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 293.0,
+	"side_bar_width": 50.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
