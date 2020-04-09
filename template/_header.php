@@ -1,3 +1,18 @@
+<?php
+function pre($object)
+{
+	echo '<pre>';
+	print_r($object);
+	echo '</pre>';
+}
+$objCategory = new Category();
+$categories = $objCategory->getCategories();
+
+$objBusniess = new Business();
+$business = $objBusniess->getBusiness();
+//pre($categories);
+//die;
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -11,7 +26,7 @@
 <body>
 <div id="header">
 	<div id="header_in">
-		<h5><a href="/">Business name</a></h5>
+		<h5><a href="/"><?php echo $business[0]['name']; ?></a></h5>
 	</div>
 </div>
 <div id="outer">
@@ -19,7 +34,12 @@
 		<div id="left">
 			<h2>Categories</h2>
 			<ul id="navigation">
-				<li><a href="#">link</a></li>
+				<?php foreach($categories as $category){
+
+					echo "<li><a href="."?page=categor&amp;category=".$category['id'].">".$category['name']."</a></li>";
+				}
+		?>
+				
 			</ul>		
 		</div>
 		<div id="right">

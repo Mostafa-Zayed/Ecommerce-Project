@@ -15,6 +15,6 @@ class Application {
 	*/
 	public function __construct(){
 
-		$this->db = new Databse();
+		$this->db = new Database();
 	}
 }

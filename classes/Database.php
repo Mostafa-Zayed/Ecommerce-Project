@@ -5,7 +5,7 @@ class Database{
 	private $hostName = 'localhost';
 	private $userName = 'root';
 	private $password = '';
-	private $databaseName = 'ecomerce';
+	private $databaseName = 'ecommerce';
 
 	private $connection = 'false';
 	public $lastQuery   = null;
@@ -46,7 +46,9 @@ class Database{
 	public function query($sql){
 
 		$this->lastQuery = $sql;
-		$result = mysqli_query($sql,$this->connection);
+		//die($this->lastQuery);
+
+		$result = mysqli_query($this->connection,$sql);
 		$this->displayQuery($result);
 		return $result;
 		
@@ -61,9 +63,9 @@ class Database{
 	public function displayQuery($result)
 	{
 
-		if(!resutl){
+		if(!$result){
 
-			$output = 'Database Is Faild :'.mysqli_error().'<br>';
+			$output = 'Database Is Faild :'.mysqli_error($this->connection).'<br>';
 			$output .= 'Last Query Is : '.$this->lastQuery;
 			die($output);
 		}else{
